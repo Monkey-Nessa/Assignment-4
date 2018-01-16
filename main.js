@@ -16,4 +16,5 @@ $('.readless a').click(function() {
 $('.learnmore').click(function() {
   event.preventDefault();
   $('#learnmoretext').slideDown()
+  $('.learnmore').hide();
 })
